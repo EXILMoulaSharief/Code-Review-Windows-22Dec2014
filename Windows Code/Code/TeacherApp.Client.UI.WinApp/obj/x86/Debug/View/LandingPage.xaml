@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="TeacherApp.Client.UI.WinApp.LandingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TeacherApp.Client.UI.WinApp.ViewModels.LandingPageViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="0,0,1,0">
+        <Grid.Resources>
+            <!-- Sets up a RepositionThemeAnimation using the FromHorizontalOffset property 
+             to start the animation from the old location. -->
+            <Storyboard x:Name="SignInStoryboard">
+                <DoubleAnimation                             
+                    Duration="0:0:2" 
+                    From="30"
+                    To="0.0" 
+                    Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="Signin">
+                </DoubleAnimation>
+            </Storyboard>
+        </Grid.Resources>
+
+        <Grid.Background>
+            <ImageBrush Stretch="None" ImageSource="/Assets/bg.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="128"></RowDefinition>
+            <RowDefinition Height="400"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="0,0,10,-81">
+            <Image Source="/Assets/SIMS_Logo_LoginScreenOff.png" Margin="-80,-65,-125,10" Height="626" HorizontalAlignment="Left" Width="650" />
+        </StackPanel>
+        <TextBlock x:ConnectionId='1' x:Name="Signin" Text="Sign In" Margin="175,330,0,22" Width="65" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" FontSize="20"  FontWeight="SemiBold" Foreground="#FF00638D" RequestedTheme="Dark"                       
+                    RenderTransformOrigin="0,0">
+            <TextBlock.RenderTransform>
+                <CompositeTransform />
+            </TextBlock.RenderTransform>
+        </TextBlock>
+    </Grid>
+
+</Page>
+

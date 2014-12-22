@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EXIRMR-L-003</Machine>
+    <WindowsUser>moula.sharief</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3ee7a9c2-eabc-4a29-811e-85c29820f6e4</PackageIdentityName>
+    <IntermediateOutputPath>D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\TeacherApp.Client.UI.WinApp.exe">
+      <PackagePath>TeacherApp.Client.UI.WinApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Domain\bin\Debug\TeacherApp.Client.Domain.dll">
+      <PackagePath>TeacherApp.Client.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Marksheet.Domain\bin\Debug\TeacherApp.Client.Marksheet.Domain.dll">
+      <PackagePath>TeacherApp.Client.Marksheet.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Marksheet.UI\bin\Debug\TeacherApp.Client.Marksheet.UI.dll">
+      <PackagePath>TeacherApp.Client.Marksheet.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Shared.Domain\bin\Debug\TeacherApp.Client.Shared.Domain.dll">
+      <PackagePath>TeacherApp.Client.Shared.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Shared.UI\bin\Debug\TeacherApp.Client.Shared.UI.dll">
+      <PackagePath>TeacherApp.Client.Shared.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI\bin\Debug\TeacherApp.Client.UI.dll">
+      <PackagePath>TeacherApp.Client.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Shared\bin\Debug\TeacherApp.Shared.dll">
+      <PackagePath>TeacherApp.Shared.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Domain\bin\Debug\TeacherApp.Server.School.Contracts.dll">
+      <PackagePath>TeacherApp.Server.School.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.Domain\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Shared\bin\Debug\protobuf-net.dll">
+      <PackagePath>protobuf-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Achievement.png">
+      <PackagePath>Assets\Achievement.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\arrow_left.png">
+      <PackagePath>Assets\arrow_left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Behaviour.png">
+      <PackagePath>Assets\Behaviour.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\belgianFlag.png">
+      <PackagePath>Assets\belgianFlag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\BottomBarContext.png">
+      <PackagePath>Assets\BottomBarContext.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\clock.png">
+      <PackagePath>Assets\clock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\close.png">
+      <PackagePath>Assets\close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Default-Landscap.png">
+      <PackagePath>Assets\Default-Landscap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\face.PNG">
+      <PackagePath>Assets\face.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\foodicon.png">
+      <PackagePath>Assets\foodicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\group.PNG">
+      <PackagePath>Assets\group.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\GroupLogo.png">
+      <PackagePath>Assets\GroupLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\homeicon.png">
+      <PackagePath>Assets\homeicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Icon-Small%402x.png">
+      <PackagePath>Assets\Icon-Small%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\IconAbsent.png">
+      <PackagePath>Assets\IconAbsent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\IconLate.png">
+      <PackagePath>Assets\IconLate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\IconPresent.png">
+      <PackagePath>Assets\IconPresent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\IconUnassigned.png">
+      <PackagePath>Assets\IconUnassigned.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage1.PNG">
+      <PackagePath>Assets\LandingImage1.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage2.PNG">
+      <PackagePath>Assets\LandingImage2.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage3.PNG">
+      <PackagePath>Assets\LandingImage3.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage4.PNG">
+      <PackagePath>Assets\LandingImage4.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LateLastLesson.png">
+      <PackagePath>Assets\LateLastLesson.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\LateThisLessonBG.png">
+      <PackagePath>Assets\LateThisLessonBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\pinico.png">
+      <PackagePath>Assets\pinico.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\pluscion.png">
+      <PackagePath>Assets\pluscion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\selectall.png">
+      <PackagePath>Assets\selectall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\sign-in-with-google.png">
+      <PackagePath>Assets\sign-in-with-google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SignInWithMicrosoft.png">
+      <PackagePath>Assets\SignInWithMicrosoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SimsLaunchLogo.png">
+      <PackagePath>Assets\SimsLaunchLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff%402x.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_Small.png">
+      <PackagePath>Assets\SIMS_Logo_Small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\star.png">
+      <PackagePath>Assets\star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\starblue.png">
+      <PackagePath>Assets\starblue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\StudentDetails.PNG">
+      <PackagePath>Assets\StudentDetails.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\Teacher.PNG">
+      <PackagePath>Assets\Teacher.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\timeblue.png">
+      <PackagePath>Assets\timeblue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\undo.png">
+      <PackagePath>Assets\undo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\WhiteLogo.PNG">
+      <PackagePath>Assets\WhiteLogo.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\BlackAndWhite.jpg">
+      <PackagePath>Assets\BlackAndWhite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\close.jpg">
+      <PackagePath>Assets\close.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\face.jpg">
+      <PackagePath>Assets\face.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\group.jpg">
+      <PackagePath>Assets\group.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\home.jpg">
+      <PackagePath>Assets\home.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kid3.jpg">
+      <PackagePath>Assets\kid3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kid6 .jpg">
+      <PackagePath>Assets\kid6 .jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kids.jpg">
+      <PackagePath>Assets\kids.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kids1.jpg">
+      <PackagePath>Assets\kids1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kids4.jpg">
+      <PackagePath>Assets\kids4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\kids5.jpg">
+      <PackagePath>Assets\kids5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\pin-face.jpg">
+      <PackagePath>Assets\pin-face.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\pinit.jpg">
+      <PackagePath>Assets\pinit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\selectall.jpg">
+      <PackagePath>Assets\selectall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\star.jpg">
+      <PackagePath>Assets\star.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\U2UC.jpg">
+      <PackagePath>Assets\U2UC.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\U2UCSquare.jpg">
+      <PackagePath>Assets\U2UCSquare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\U2UCWide.jpg">
+      <PackagePath>Assets\U2UCWide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\U2USmall.jpg">
+      <PackagePath>Assets\U2USmall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\Assets\undo.jpg">
+      <PackagePath>Assets\undo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\XMLFile1.xml">
+      <PackagePath>XMLFile1.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\XMLFile2.xml">
+      <PackagePath>XMLFile2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\XMLFile3.xml">
+      <PackagePath>XMLFile3.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Achievement.xbf">
+      <PackagePath>Achievement.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Attendance.xbf">
+      <PackagePath>Attendance.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\AttendanceBar1.xbf">
+      <PackagePath>AttendanceBar1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\AttendanceList.xbf">
+      <PackagePath>AttendanceList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\BehaviourIncident.xbf">
+      <PackagePath>BehaviourIncident.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\LoginWebView.xbf">
+      <PackagePath>LoginWebView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\CalenderViewDefalt.xbf">
+      <PackagePath>CalenderViewDefalt.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Codes.xbf">
+      <PackagePath>Codes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\ExternalAPICall.xbf">
+      <PackagePath>ExternalAPICall.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\LandingPage.xbf">
+      <PackagePath>LandingPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Late.xbf">
+      <PackagePath>Late.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\Search.xbf">
+      <PackagePath>Search.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\StudentDetails.xbf">
+      <PackagePath>StudentDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\TeacherApp.Client.UI.WinApp.xr.xml">
+      <PackagePath>TeacherApp.Client.UI.WinApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TAppWIP\SIMSTeacherApp\Code\TeacherApp.Client.UI.WinApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

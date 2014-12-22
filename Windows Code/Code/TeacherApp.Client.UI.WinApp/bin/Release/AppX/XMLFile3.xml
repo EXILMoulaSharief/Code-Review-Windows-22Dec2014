@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<images>
+  <Image>    
+    <Name>Ben Morris</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+    <Picture>Assets/kids.jpg</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>  
+    <Name>Ben Harris</Name>
+    <ImageUrl></ImageUrl>
+   <Picture>Assets/kids1.jpg</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>   
+    <Name>Ben Chris</Name>
+    <ImageUrl></ImageUrl>
+   <Picture>Assets/DavidBerry.png</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>  
+    <Name>Ben Richard</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+   <Picture>Assets/kids4.jpg</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>
+    <Name>Ben Barnard</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+    <Picture>Assets/kids5.jpg</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>
+    <Name>Ben Barnard</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+    <Picture>Assets/kids5.jpg</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>
+    <Name>Ben Shayar</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+    <Picture>Assets/AdimSmith.png</Picture>
+    <Functionality></Functionality>
+  </Image>
+  <Image>
+    <Name>Richard Bassit</Name>
+    <ImageUrl>Assets/Behaviour.png</ImageUrl>
+    <Picture>Assets/RichardBassit.png</Picture>
+    <Functionality></Functionality>
+  </Image>
+ </images>

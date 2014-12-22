@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EXIBLR-L-125</Machine>
+    <WindowsUser>sourabh.b</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>3ee7a9c2-eabc-4a29-811e-85c29820f6e4</PackageIdentityName>
+    <IntermediateOutputPath>D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\TeacherApp.Client.UI.WinApp.exe">
+      <PackagePath>TeacherApp.Client.UI.WinApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\packages\Unity.3.5.1404.0\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\monotouch.dll">
+      <PackagePath>monotouch.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Domain\bin\Debug\TeacherApp.Client.Domain.dll">
+      <PackagePath>TeacherApp.Client.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Marksheet.Domain\bin\Debug\TeacherApp.Client.Marksheet.Domain.dll">
+      <PackagePath>TeacherApp.Client.Marksheet.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Marksheet.UI\bin\Debug\TeacherApp.Client.Marksheet.UI.dll">
+      <PackagePath>TeacherApp.Client.Marksheet.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Shared.Domain\bin\Debug\TeacherApp.Client.Shared.Domain.dll">
+      <PackagePath>TeacherApp.Client.Shared.Domain.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Shared.UI\bin\Debug\TeacherApp.Client.Shared.UI.dll">
+      <PackagePath>TeacherApp.Client.Shared.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI\bin\Debug\TeacherApp.Client.UI.dll">
+      <PackagePath>TeacherApp.Client.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Server.School.Contracts\bin\Debug\TeacherApp.Server.School.Contracts.dll">
+      <PackagePath>TeacherApp.Server.School.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Shared\bin\Debug\TeacherApp.Shared.dll">
+      <PackagePath>TeacherApp.Shared.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.Domain\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Server.School.Contracts\bin\Debug\protobuf-net.dll">
+      <PackagePath>protobuf-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.7.4\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Achievement.png">
+      <PackagePath>Assets\Achievement.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\AdimSmith.PNG">
+      <PackagePath>Assets\AdimSmith.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\arrow_left.png">
+      <PackagePath>Assets\arrow_left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Behaviour.png">
+      <PackagePath>Assets\Behaviour.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\belgianFlag.png">
+      <PackagePath>Assets\belgianFlag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\BenMorris.PNG">
+      <PackagePath>Assets\BenMorris.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\BottomBarContext.png">
+      <PackagePath>Assets\BottomBarContext.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\clock.png">
+      <PackagePath>Assets\clock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\close.png">
+      <PackagePath>Assets\close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\DavidBerry.PNG">
+      <PackagePath>Assets\DavidBerry.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Default-Landscap.png">
+      <PackagePath>Assets\Default-Landscap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\face.PNG">
+      <PackagePath>Assets\face.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\foodicon.png">
+      <PackagePath>Assets\foodicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\group.PNG">
+      <PackagePath>Assets\group.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\GroupLogo.png">
+      <PackagePath>Assets\GroupLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\homeicon.png">
+      <PackagePath>Assets\homeicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Icon-Small%402x.png">
+      <PackagePath>Assets\Icon-Small%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\IconAbsent.png">
+      <PackagePath>Assets\IconAbsent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\IconLate.png">
+      <PackagePath>Assets\IconLate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\IconPresent.png">
+      <PackagePath>Assets\IconPresent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\IconUnassigned.png">
+      <PackagePath>Assets\IconUnassigned.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage1.PNG">
+      <PackagePath>Assets\LandingImage1.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage2.PNG">
+      <PackagePath>Assets\LandingImage2.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage3.PNG">
+      <PackagePath>Assets\LandingImage3.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LandingImage4.PNG">
+      <PackagePath>Assets\LandingImage4.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LateLastLesson.png">
+      <PackagePath>Assets\LateLastLesson.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\LateThisLessonBG.png">
+      <PackagePath>Assets\LateThisLessonBG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\pinico.png">
+      <PackagePath>Assets\pinico.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\pluscion.png">
+      <PackagePath>Assets\pluscion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\selectall.png">
+      <PackagePath>Assets\selectall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\sign-in-with-google.png">
+      <PackagePath>Assets\sign-in-with-google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SignInWithMicrosoft.png">
+      <PackagePath>Assets\SignInWithMicrosoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SimsLaunchLogo.png">
+      <PackagePath>Assets\SimsLaunchLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff%402x.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff%402x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_Small.png">
+      <PackagePath>Assets\SIMS_Logo_Small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\star.png">
+      <PackagePath>Assets\star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\starblue.png">
+      <PackagePath>Assets\starblue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\StudentDetails.PNG">
+      <PackagePath>Assets\StudentDetails.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\Teacher.PNG">
+      <PackagePath>Assets\Teacher.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\timeblue.png">
+      <PackagePath>Assets\timeblue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\undo.png">
+      <PackagePath>Assets\undo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\WhiteLogo.PNG">
+      <PackagePath>Assets\WhiteLogo.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\BlackAndWhite.jpg">
+      <PackagePath>Assets\BlackAndWhite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\close.jpg">
+      <PackagePath>Assets\close.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\face.jpg">
+      <PackagePath>Assets\face.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\group.jpg">
+      <PackagePath>Assets\group.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\home.jpg">
+      <PackagePath>Assets\home.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kid3.jpg">
+      <PackagePath>Assets\kid3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kid6 .jpg">
+      <PackagePath>Assets\kid6 .jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kids.jpg">
+      <PackagePath>Assets\kids.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kids1.jpg">
+      <PackagePath>Assets\kids1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kids4.jpg">
+      <PackagePath>Assets\kids4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\kids5.jpg">
+      <PackagePath>Assets\kids5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\pin-face.jpg">
+      <PackagePath>Assets\pin-face.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\pinit.jpg">
+      <PackagePath>Assets\pinit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\selectall.jpg">
+      <PackagePath>Assets\selectall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\star.jpg">
+      <PackagePath>Assets\star.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\U2UC.jpg">
+      <PackagePath>Assets\U2UC.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\U2UCSquare.jpg">
+      <PackagePath>Assets\U2UCSquare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\U2UCWide.jpg">
+      <PackagePath>Assets\U2UCWide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\U2USmall.jpg">
+      <PackagePath>Assets\U2USmall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Assets\undo.jpg">
+      <PackagePath>Assets\undo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Configuration\XMLFile1.xml">
+      <PackagePath>Configuration\XMLFile1.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Configuration\XMLFile2.xml">
+      <PackagePath>Configuration\XMLFile2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\Configuration\XMLFile3.xml">
+      <PackagePath>Configuration\XMLFile3.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Achievement.xbf">
+      <PackagePath>View\Achievement.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Attendance.xbf">
+      <PackagePath>View\Attendance.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\AttendanceBar1.xbf">
+      <PackagePath>View\AttendanceBar1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\AttendanceList.xbf">
+      <PackagePath>View\AttendanceList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\BehaviourIncident.xbf">
+      <PackagePath>View\BehaviourIncident.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\SignOut.xbf">
+      <PackagePath>View\SignOut.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\TimeTable.xbf">
+      <PackagePath>View\TimeTable.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\LoginWebView.xbf">
+      <PackagePath>View\LoginWebView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\CalenderViewDefalt.xbf">
+      <PackagePath>View\CalenderViewDefalt.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Codes.xbf">
+      <PackagePath>View\Codes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Home.xbf">
+      <PackagePath>View\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\LandingPage.xbf">
+      <PackagePath>View\LandingPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Late.xbf">
+      <PackagePath>View\Late.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Login.xbf">
+      <PackagePath>View\Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\Search.xbf">
+      <PackagePath>View\Search.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\View\StudentDetails.xbf">
+      <PackagePath>View\StudentDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\TeacherApp.Client.UI.WinApp.xr.xml">
+      <PackagePath>TeacherApp.Client.UI.WinApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\Trunk\Windows Code\Code\TeacherApp.Client.UI.WinApp\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

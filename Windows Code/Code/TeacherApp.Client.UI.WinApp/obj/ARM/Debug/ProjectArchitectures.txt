@@ -1,0 +1,2 @@
+C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.Shared.UI\TeacherApp.Client.Shared.UI.csproj;neutral
+C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp.csproj;arm
