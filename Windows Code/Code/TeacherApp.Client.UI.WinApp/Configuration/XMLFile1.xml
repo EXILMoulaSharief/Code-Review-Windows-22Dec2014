@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<images>
+  <Image>
+    <ImageTitle>Morris</ImageTitle>
+    <Picture>Assets/kids.jpg</Picture>
+    <Name>Ben</Name>
+  </Image>
+    <Image>
+    <ImageTitle>Richard</ImageTitle>
+      <Picture>Assets/kids1.jpg</Picture>
+      <Name>Ben</Name>
+  </Image>
+  <Image>
+    <ImageTitle>Harris</ImageTitle>
+    <Picture>Assets/kids3.jpg</Picture>
+    <Name>Ben</Name>
+  </Image>
+  <Image>
+    <ImageTitle>Chris</ImageTitle>
+    <Picture>Assets/kids5.jpg</Picture>
+    <Name>Ben</Name>
+  </Image>
+</images>

@@ -1,0 +1,18 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.ui.winapp\obj\x86\debug\intermediatexaml\teacherapp.client.ui.winapp.exe" HashGuid="8eb300b2-32e5-b0f9-1f91-4aa430e9a367" />
+    <ReferenceAssembly PathName="c:\program files\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.ui.winapp\bin\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.ui.winapp\bin\microsoft.practices.unity.dll" HashGuid="bfbab92e-125a-5b6e-9ddc-f777451b52b9" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\packages\unity.3.5.1404.0\lib\win8\microsoft.practices.unity.registrationbyconvention.dll" HashGuid="51d90060-4c44-273b-debb-8173fa2723a6" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.ui.winapp\bin\monotouch.dll" HashGuid="a963eb71-74f2-157c-a568-a609786f4911" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.domain\bin\debug\teacherapp.client.domain.dll" HashGuid="0bfdaba0-9ac4-8cf1-dacd-db299ccf72f8" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.marksheet.domain\bin\debug\teacherapp.client.marksheet.domain.dll" HashGuid="a4057514-b2cd-2f5a-af80-7679808159e4" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.marksheet.ui\bin\debug\teacherapp.client.marksheet.ui.dll" HashGuid="62010591-305d-7f13-9ae6-34bfd3191cc4" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.shared.domain\bin\debug\teacherapp.client.shared.domain.dll" HashGuid="8441d9e4-19be-c059-a186-4867cc578c1a" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.shared.ui\bin\debug\teacherapp.client.shared.ui.dll" HashGuid="09d98a15-301c-c331-1e36-eeee2f5d1d0d" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.client.ui\bin\debug\teacherapp.client.ui.dll" HashGuid="b4918087-6f8d-c809-b8ae-fdd8152fb0e3" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.server.school.contracts\bin\debug\teacherapp.server.school.contracts.dll" HashGuid="771a09c3-4851-f6cb-b90c-6833f2a8e7cd" />
+    <ReferenceAssembly PathName="d:\code\trunk\windows code\code\teacherapp.shared\bin\debug\teacherapp.shared.dll" HashGuid="200afe5e-c333-1024-baaf-5ac52c3344c7" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EXIBLR-L-125</Machine>
+    <WindowsUser>sourabh.b</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3ee7a9c2-eabc-4a29-811e-85c29820f6e4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E9B58C47028214E9F5CD81F443CEA5E5031707120559701CEC81CE37E2C7E97B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3ee7a9c2-eabc-4a29-811e-85c29820f6e4_1.0.0.24_neutral__51bfvgab45y7e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3ee7a9c2-eabc-4a29-811e-85c29820f6e4_51bfvgab45y7e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3ee7a9c2-eabc-4a29-811e-85c29820f6e4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=sourabh.b</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.24</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-28T20:01:41.593</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\TeacherApp.Client.UI.WinApp.exe">
+      <PackagePath>TeacherApp.Client.UI.WinApp.exe</PackagePath>
+      <Modified>2014-11-29T11:25:24.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Achievement.png">
+      <PackagePath>Assets\Achievement.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\AdimSmith.PNG">
+      <PackagePath>Assets\AdimSmith.PNG</PackagePath>
+      <Modified>2014-11-27T13:35:05.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\arrow_left.png">
+      <PackagePath>Assets\arrow_left.png</PackagePath>
+      <Modified>2014-10-23T08:33:16.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Behaviour.png">
+      <PackagePath>Assets\Behaviour.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\belgianFlag.png">
+      <PackagePath>Assets\belgianFlag.png</PackagePath>
+      <Modified>2014-10-17T09:28:21.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\BenMorris.PNG">
+      <PackagePath>Assets\BenMorris.PNG</PackagePath>
+      <Modified>2014-11-27T13:32:57.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2014-10-29T09:19:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\BottomBarContext.png">
+      <PackagePath>Assets\BottomBarContext.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\clock.png">
+      <PackagePath>Assets\clock.png</PackagePath>
+      <Modified>2014-10-22T10:52:21.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\close.png">
+      <PackagePath>Assets\close.png</PackagePath>
+      <Modified>2014-11-23T13:14:06.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\DavidBerry.PNG">
+      <PackagePath>Assets\DavidBerry.PNG</PackagePath>
+      <Modified>2014-11-27T13:34:07.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Default-Landscap.png">
+      <PackagePath>Assets\Default-Landscap.png</PackagePath>
+      <Modified>2014-10-15T06:48:17.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\face.PNG">
+      <PackagePath>Assets\face.PNG</PackagePath>
+      <Modified>2014-10-28T07:34:28.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\foodicon.png">
+      <PackagePath>Assets\foodicon.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\group.PNG">
+      <PackagePath>Assets\group.PNG</PackagePath>
+      <Modified>2014-10-28T10:36:50.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\GroupLogo.png">
+      <PackagePath>Assets\GroupLogo.png</PackagePath>
+      <Modified>2014-10-22T16:40:00.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\homeicon.png">
+      <PackagePath>Assets\homeicon.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Icon-Small%402x.png">
+      <PackagePath>Assets\Icon-Small%402x.png</PackagePath>
+      <Modified>2014-10-15T06:48:17.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\IconAbsent.png">
+      <PackagePath>Assets\IconAbsent.png</PackagePath>
+      <Modified>2014-11-06T15:12:16.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\IconLate.png">
+      <PackagePath>Assets\IconLate.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\IconPresent.png">
+      <PackagePath>Assets\IconPresent.png</PackagePath>
+      <Modified>2014-11-06T15:12:16.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\IconUnassigned.png">
+      <PackagePath>Assets\IconUnassigned.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
+      <Modified>2014-10-20T09:57:12.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LandingImage1.PNG">
+      <PackagePath>Assets\LandingImage1.PNG</PackagePath>
+      <Modified>2014-10-29T06:20:35.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LandingImage2.PNG">
+      <PackagePath>Assets\LandingImage2.PNG</PackagePath>
+      <Modified>2014-10-29T06:21:06.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LandingImage3.PNG">
+      <PackagePath>Assets\LandingImage3.PNG</PackagePath>
+      <Modified>2014-10-29T06:21:38.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LandingImage4.PNG">
+      <PackagePath>Assets\LandingImage4.PNG</PackagePath>
+      <Modified>2014-10-29T06:22:05.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LateLastLesson.png">
+      <PackagePath>Assets\LateLastLesson.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\LateThisLessonBG.png">
+      <PackagePath>Assets\LateThisLessonBG.png</PackagePath>
+      <Modified>2014-10-15T06:48:18.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T06:39:25.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\pinico.png">
+      <PackagePath>Assets\pinico.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\pluscion.png">
+      <PackagePath>Assets\pluscion.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\RichardBassit.png">
+      <PackagePath>Assets\RichardBassit.png</PackagePath>
+      <Modified>2014-11-27T13:33:34.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+      <Modified>2014-11-13T17:49:01.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\selectall.png">
+      <PackagePath>Assets\selectall.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\sign-in-with-google.png">
+      <PackagePath>Assets\sign-in-with-google.png</PackagePath>
+      <Modified>2014-11-22T12:11:36.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SignInWithMicrosoft.png">
+      <PackagePath>Assets\SignInWithMicrosoft.png</PackagePath>
+      <Modified>2014-11-22T12:18:52.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SimsLaunchLogo.png">
+      <PackagePath>Assets\SimsLaunchLogo.png</PackagePath>
+      <Modified>2014-10-15T06:48:17.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff%402x.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff%402x.png</PackagePath>
+      <Modified>2014-11-06T15:12:17.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_LoginScreenOff.png">
+      <PackagePath>Assets\SIMS_Logo_LoginScreenOff.png</PackagePath>
+      <Modified>2014-11-06T15:12:17.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SIMS_Logo_Small.png">
+      <PackagePath>Assets\SIMS_Logo_Small.png</PackagePath>
+      <Modified>2014-10-15T06:48:17.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T06:39:25.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T06:39:25.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\star.png">
+      <PackagePath>Assets\star.png</PackagePath>
+      <Modified>2014-10-22T18:19:48.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\starblue.png">
+      <PackagePath>Assets\starblue.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-13T06:39:25.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\StudentDetails.PNG">
+      <PackagePath>Assets\StudentDetails.PNG</PackagePath>
+      <Modified>2014-11-04T09:56:31.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\Teacher.PNG">
+      <PackagePath>Assets\Teacher.PNG</PackagePath>
+      <Modified>2014-10-28T10:43:13.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\timeblue.png">
+      <PackagePath>Assets\timeblue.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\undo.png">
+      <PackagePath>Assets\undo.png</PackagePath>
+      <Modified>2014-10-28T10:22:53.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\WhiteLogo.PNG">
+      <PackagePath>Assets\WhiteLogo.PNG</PackagePath>
+      <Modified>2014-10-28T15:37:34.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+      <Modified>2014-10-27T07:54:18.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\BlackAndWhite.jpg">
+      <PackagePath>Assets\BlackAndWhite.jpg</PackagePath>
+      <Modified>2014-10-17T09:28:21.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\close.jpg">
+      <PackagePath>Assets\close.jpg</PackagePath>
+      <Modified>2014-11-23T17:29:16.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\face.jpg">
+      <PackagePath>Assets\face.jpg</PackagePath>
+      <Modified>2014-10-17T06:41:16.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\group.jpg">
+      <PackagePath>Assets\group.jpg</PackagePath>
+      <Modified>2014-10-22T15:48:14.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\home.jpg">
+      <PackagePath>Assets\home.jpg</PackagePath>
+      <Modified>2014-10-22T19:45:15.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kid3.jpg">
+      <PackagePath>Assets\kid3.jpg</PackagePath>
+      <Modified>2014-10-24T12:48:10.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kid6 .jpg">
+      <PackagePath>Assets\kid6 .jpg</PackagePath>
+      <Modified>2014-10-24T12:48:10.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kids.jpg">
+      <PackagePath>Assets\kids.jpg</PackagePath>
+      <Modified>2014-10-24T12:45:32.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kids1.jpg">
+      <PackagePath>Assets\kids1.jpg</PackagePath>
+      <Modified>2014-10-24T12:46:32.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kids4.jpg">
+      <PackagePath>Assets\kids4.jpg</PackagePath>
+      <Modified>2014-10-24T12:48:53.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\kids5.jpg">
+      <PackagePath>Assets\kids5.jpg</PackagePath>
+      <Modified>2014-10-24T12:49:59.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\pin-face.jpg">
+      <PackagePath>Assets\pin-face.jpg</PackagePath>
+      <Modified>2014-11-23T20:45:27.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\pinit.jpg">
+      <PackagePath>Assets\pinit.jpg</PackagePath>
+      <Modified>2014-10-27T10:57:24.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\selectall.jpg">
+      <PackagePath>Assets\selectall.jpg</PackagePath>
+      <Modified>2014-10-27T10:56:42.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\star.jpg">
+      <PackagePath>Assets\star.jpg</PackagePath>
+      <Modified>2014-10-21T07:25:03.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\U2UC.jpg">
+      <PackagePath>Assets\U2UC.jpg</PackagePath>
+      <Modified>2014-10-17T09:28:21.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\U2UCSquare.jpg">
+      <PackagePath>Assets\U2UCSquare.jpg</PackagePath>
+      <Modified>2014-10-17T09:28:21.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\U2UCWide.jpg">
+      <PackagePath>Assets\U2UCWide.jpg</PackagePath>
+      <Modified>2014-10-17T09:28:21.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\U2USmall.jpg">
+      <PackagePath>Assets\U2USmall.jpg</PackagePath>
+      <Modified>2014-10-17T09:28:21.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\Assets\undo.jpg">
+      <PackagePath>Assets\undo.jpg</PackagePath>
+      <Modified>2014-10-27T10:56:01.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\XMLFile1.xml">
+      <PackagePath>XMLFile1.xml</PackagePath>
+      <Modified>2014-11-23T21:32:46.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\XMLFile2.xml">
+      <PackagePath>XMLFile2.xml</PackagePath>
+      <Modified>2014-10-26T19:04:03.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\XMLFile3.xml">
+      <PackagePath>XMLFile3.xml</PackagePath>
+      <Modified>2014-11-27T13:55:54.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Achievement.xbf">
+      <PackagePath>Achievement.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Attendance.xbf">
+      <PackagePath>Attendance.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\AttendanceBar1.xbf">
+      <PackagePath>AttendanceBar1.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\AttendanceList.xbf">
+      <PackagePath>AttendanceList.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\BehaviourIncident.xbf">
+      <PackagePath>BehaviourIncident.xbf</PackagePath>
+      <Modified>2014-11-29T11:22:36.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+      <Modified>2014-11-28T10:59:26.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\BlankPage2.xbf">
+      <PackagePath>BlankPage2.xbf</PackagePath>
+      <Modified>2014-11-28T20:12:48.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\CalenderViewDefalt.xbf">
+      <PackagePath>CalenderViewDefalt.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Codes.xbf">
+      <PackagePath>Codes.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\ExternalAPICall.xbf">
+      <PackagePath>ExternalAPICall.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\LandingPage.xbf">
+      <PackagePath>LandingPage.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Late.xbf">
+      <PackagePath>Late.xbf</PackagePath>
+      <Modified>2014-11-29T11:23:11.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\Search.xbf">
+      <PackagePath>Search.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\StudentDetails.xbf">
+      <PackagePath>StudentDetails.xbf</PackagePath>
+      <Modified>2014-11-28T09:16:12.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\TeacherApp.Client.UI.WinApp.xr.xml">
+      <PackagePath>TeacherApp.Client.UI.WinApp.xr.xml</PackagePath>
+      <Modified>2014-11-28T20:01:37.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-28T20:01:40.258</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

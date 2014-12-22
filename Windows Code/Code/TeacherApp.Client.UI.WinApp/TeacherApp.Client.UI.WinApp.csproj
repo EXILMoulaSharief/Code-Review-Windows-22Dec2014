@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{155DC21B-A1B6-4EBA-8191-0E598E84FB7B}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TeacherApp.Client.UI.WinApp</RootNamespace>
+    <AssemblyName>TeacherApp.Client.UI.WinApp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>TeacherApp.Client.UI.WinApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x86</AppxBundlePlatforms>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Cache\CacheExpiryManager.cs" />
+    <Compile Include="Cache\FileSystemImageCache.cs" />
+    <Compile Include="Cache\ImageDetailMapping.cs" />
+    <Compile Include="Cache\InMemoryImageCache.cs" />
+    <Compile Include="Cache\SQLite.cs" />
+    <Compile Include="Common\ImageManager.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="View\Achievement.xaml.cs">
+      <DependentUpon>Achievement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Attendance.xaml.cs">
+      <DependentUpon>Attendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AttendanceBar1.xaml.cs">
+      <DependentUpon>AttendanceBar1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AttendanceList.xaml.cs">
+      <DependentUpon>AttendanceList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BehaviourIncident.xaml.cs">
+      <DependentUpon>BehaviourIncident.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\GlobalFields.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\PageManager.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Management\NavigationHelper.cs" />
+    <Compile Include="Management\NetworkActivityService.cs" />
+    <Compile Include="Services\DialogService.cs" />
+    <Compile Include="Services\MicrosoftService.cs" />
+    <Compile Include="Services\MyMessageDialog.cs" />
+    <Compile Include="Services\NetworkConnectivityService.cs" />
+    <Compile Include="View\SignOut.xaml.cs">
+      <DependentUpon>SignOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TimeTable.xaml.cs">
+      <DependentUpon>TimeTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ActivityIndicator.cs" />
+    <Compile Include="Configuration\AppSettingsProvider.cs" />
+    <Compile Include="View\LoginWebView.xaml.cs">
+      <DependentUpon>LoginWebView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CalenderViewDefalt.xaml.cs">
+      <DependentUpon>CalenderViewDefalt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Codes.xaml.cs">
+      <DependentUpon>Codes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ISecureStorageManager.cs" />
+    <Compile Include="Common\SecureStorageManager.cs" />
+    <Compile Include="Common\Users.cs" />
+    <Compile Include="Common\flipimage.cs" />
+    <Compile Include="View\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LandingPage.xaml.cs">
+      <DependentUpon>LandingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Late.xaml.cs">
+      <DependentUpon>Late.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Management\NavigationManager.cs" />
+    <Compile Include="Model\flipimage.cs" />
+    <Compile Include="Model\Timetable\TimetableCollectionViewController.cs" />
+    <Compile Include="Model\Timetable\TimetableDayCollectionViewDataSource.cs" />
+    <Compile Include="Model\Timetable\TimetableFullWeekCollectionViewDataSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StudentDetails.xaml.cs">
+      <DependentUpon>StudentDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\CalenderViewDefaltViewModel.cs" />
+    <Compile Include="ViewModels\GroupBrowserCollectionViewModel.cs" />
+    <Compile Include="ViewModels\LandingPageViewModel.cs" />
+    <Compile Include="ViewModels\LogoutViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86.appxupload" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.ps1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\cs-CZ\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\de-DE\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\en-US\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\es-ES\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\fr-FR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\it-IT\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\ja-JP\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\ko-KR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\pl-PL\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\pt-BR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\ru-RU\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\tr-TR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\zh-CN\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\Add-AppDevPackage.resources\zh-TW\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.21_x86.appx" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.21_x86.appxsym" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.21_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.21_x86.cer" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86.appxupload" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.ps1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\cs-CZ\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\de-DE\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\en-US\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\es-ES\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\fr-FR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\it-IT\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\ja-JP\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\ko-KR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\pl-PL\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\pt-BR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\ru-RU\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\tr-TR\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\zh-CN\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\Add-AppDevPackage.resources\zh-TW\Add-AppDevPackage.psd1" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.24_x86.appx" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.24_x86.appxsym" />
+    <None Include="AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.24_x86_Test\TeacherApp.Client.UI.WinApp_1.0.0.24_x86.cer" />
+    <PRIResource Include="Resources\Resources.resw" />
+    <None Include="packages.config" />
+    <None Include="TeacherApp.Client.UI.WinApp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Achievement.png" />
+    <Content Include="Assets\AdimSmith.PNG" />
+    <Content Include="Assets\arrow_left.png" />
+    <Content Include="Assets\Behaviour.png" />
+    <Content Include="Assets\belgianFlag.png" />
+    <Content Include="Assets\BenMorris.PNG" />
+    <Content Include="Assets\bg.jpg" />
+    <Content Include="Assets\bg.png" />
+    <Content Include="Assets\BlackAndWhite.jpg" />
+    <Content Include="Assets\BottomBarContext.png" />
+    <Content Include="Assets\clock.png" />
+    <Content Include="Assets\close.jpg" />
+    <Content Include="Assets\close.png" />
+    <Content Include="Assets\DavidBerry.PNG" />
+    <Content Include="Assets\Default-Landscap.png" />
+    <Content Include="Assets\face.jpg" />
+    <Content Include="Assets\face.PNG" />
+    <Content Include="Assets\foodicon.png" />
+    <Content Include="Assets\group.jpg" />
+    <Content Include="Assets\group.PNG" />
+    <Content Include="Assets\GroupLogo.png" />
+    <Content Include="Assets\home.jpg" />
+    <Content Include="Assets\homeicon.png" />
+    <Content Include="Assets\Icon-Small%402x.png" />
+    <Content Include="Assets\IconAbsent.png" />
+    <Content Include="Assets\IconLate.png" />
+    <Content Include="Assets\IconPresent.png" />
+    <Content Include="Assets\IconUnassigned.png" />
+    <Content Include="Assets\images.png" />
+    <Content Include="Assets\kid3.jpg" />
+    <Content Include="Assets\kid6 .jpg" />
+    <Content Include="Assets\kids.jpg" />
+    <Content Include="Assets\kids1.jpg" />
+    <Content Include="Assets\kids4.jpg" />
+    <Content Include="Assets\kids5.jpg" />
+    <Content Include="Assets\LandingImage1.PNG" />
+    <Content Include="Assets\LandingImage2.PNG" />
+    <Content Include="Assets\LandingImage3.PNG" />
+    <Content Include="Assets\LandingImage4.PNG" />
+    <Content Include="Assets\LateLastLesson.png" />
+    <Content Include="Assets\LateThisLessonBG.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\pin-face.jpg" />
+    <Content Include="Assets\pinico.png" />
+    <Content Include="Assets\pinit.jpg" />
+    <Content Include="Assets\pluscion.png" />
+    <Content Include="Assets\search.png" />
+    <Content Include="Assets\selectall.jpg" />
+    <Content Include="Assets\selectall.png" />
+    <Content Include="Assets\sign-in-with-google.png" />
+    <Content Include="Assets\SignInWithMicrosoft.png" />
+    <Content Include="Assets\SimsLaunchLogo.png" />
+    <Content Include="Assets\SIMS_Logo_LoginScreenOff%402x.png" />
+    <Content Include="Assets\SIMS_Logo_LoginScreenOff.png" />
+    <Content Include="Assets\SIMS_Logo_Small.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\star.jpg" />
+    <Content Include="Assets\star.png" />
+    <Content Include="Assets\starblue.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StudentDetails.PNG" />
+    <Content Include="Assets\Teacher.PNG" />
+    <Content Include="Assets\timeblue.png" />
+    <Content Include="Assets\U2UC.jpg" />
+    <Content Include="Assets\U2UCSquare.jpg" />
+    <Content Include="Assets\U2UCWide.jpg" />
+    <Content Include="Assets\U2USmall.jpg" />
+    <Content Include="Assets\undo.jpg" />
+    <Content Include="Assets\undo.png" />
+    <Content Include="Assets\WhiteLogo.PNG" />
+    <Content Include="Configuration\XMLFile1.xml" />
+    <Content Include="Configuration\XMLFile2.xml" />
+    <Content Include="Configuration\XMLFile3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="View\Achievement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Attendance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AttendanceBar1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AttendanceList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BehaviourIncident.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SignOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TimeTable.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LoginWebView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CalenderViewDefalt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Codes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LandingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Late.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Search.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StudentDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeacherApp.Client.Domain\TeacherApp.Client.Domain.csproj">
+      <Project>{4fa9fc1c-2dba-4fba-b924-5f49de22f24b}</Project>
+      <Name>TeacherApp.Client.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Client.Marksheet.Domain\TeacherApp.Client.Marksheet.Domain.csproj">
+      <Project>{b1297bb8-fd71-4b34-b5f2-25f40c6dd9ca}</Project>
+      <Name>TeacherApp.Client.Marksheet.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Client.Marksheet.UI\TeacherApp.Client.Marksheet.UI.csproj">
+      <Project>{d9462162-7577-49a3-aa34-052eeef5cdc7}</Project>
+      <Name>TeacherApp.Client.Marksheet.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Client.Shared.Domain\TeacherApp.Client.Shared.Domain.csproj">
+      <Project>{3846c855-9704-4942-b13e-941b2c1bb58e}</Project>
+      <Name>TeacherApp.Client.Shared.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Client.Shared.UI\TeacherApp.Client.Shared.UI.csproj">
+      <Project>{1325dbb0-993b-4de2-917f-ff095da017fd}</Project>
+      <Name>TeacherApp.Client.Shared.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Client.UI\TeacherApp.Client.UI.csproj">
+      <Project>{dec49044-7dd8-4ba3-ac09-f8bc8c787fa4}</Project>
+      <Name>TeacherApp.Client.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Server.School.Contracts\TeacherApp.Server.School.Contracts.csproj">
+      <Project>{31e98bad-fccd-41de-8103-37f6f8bf7e10}</Project>
+      <Name>TeacherApp.Server.School.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeacherApp.Shared\TeacherApp.Shared.csproj">
+      <Project>{8386a96f-292d-4559-94f1-20f6dc2aa679}</Project>
+      <Name>TeacherApp.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="monotouch">
+      <HintPath>bin\monotouch.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WinRT81, Version=3.8.7.4">
+      <Name>SQLite for Windows Runtime %28Windows 8.1%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
