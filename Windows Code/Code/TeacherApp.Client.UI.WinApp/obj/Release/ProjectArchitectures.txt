@@ -1,1 +1,0 @@
-C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp.csproj;neutral

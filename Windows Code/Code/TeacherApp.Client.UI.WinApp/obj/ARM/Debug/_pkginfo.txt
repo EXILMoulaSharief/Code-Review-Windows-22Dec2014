@@ -1,1 +1,0 @@
-C:\Users\sourabh.b\Documents\Visual Studio 2013\Projects\TeacherApp.Client.UI.WinApp\TeacherApp.Client.UI.WinApp\AppPackages\TeacherApp.Client.UI.WinApp_1.0.0.1_ARM_Debug_Test\TeacherApp.Client.UI.WinApp_1.0.0.1_ARM_Debug.appx
